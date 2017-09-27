@@ -17,3 +17,21 @@ two:
   driver_license: MyString
   ine: MyString
   observations: MyText
+
+valid:
+    name: Benjamín Peña Olvera
+    address: Sonora 526, Juan José Rios III, Villa de Álvarez, Colima.
+    contact_num: "3125948261"
+    age: "28"
+    driver_license: "12345678"
+    ine: q1w2e3r4t5y6
+    observations: Contacto directo con su mamá Juana Olvera Martines al
+
+not_valid_contact_num:
+    name: Benjamín Peña Olvera
+    address: Sonora 526, Juan José Rios III, Villa de Álvarez, Colima.
+    contact_num: NULL
+    age: "28"
+    driver_license: "12345678"
+    ine: q1w2e3r4t5y6
+    observations: Contacto directo con su mamá Juana Olvera Martines al
