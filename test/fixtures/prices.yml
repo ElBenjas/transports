@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  city_origin: MyString
+  city_destiny: MyString
+  total_days: MyString
+  first_payment: MyString
+  total_payment: MyString
+  observations: MyText
+
+two:
+  city_origin: MyString
+  city_destiny: MyString
+  total_days: MyString
+  first_payment: MyString
+  total_payment: MyString
+  observations: MyText
