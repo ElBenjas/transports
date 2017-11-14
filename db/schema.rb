@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171111224855) do
+ActiveRecord::Schema.define(version: 20171114061313) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -49,7 +49,10 @@ ActiveRecord::Schema.define(version: 20171111224855) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "title"
+    t.bigint "client_id"
+    t.index ["client_id"], name: "index_prices_on_client_id"
   end
 
   add_foreign_key "drivers", "prices"
+  add_foreign_key "prices", "clients"
 end
