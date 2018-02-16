@@ -1,0 +1,8 @@
+%h1
+  = t('views.clients.list_of_clients')
+
+- @clients.each do |c|
+  %p.mt-1
+    = c.id
+    = c.name
+    = link_to(t('actions.view'), c)
