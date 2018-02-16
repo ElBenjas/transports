@@ -32,6 +32,7 @@
 en:
   actions:
     back: 'Back'
+    delete: 'Delete' 
     view: 'View'
 
   navbar:
