@@ -7,6 +7,7 @@ end
 
 gem 'bootstrap', '~> 4.0.0'
 gem 'coffee-rails', '~> 4.2'
+gem 'haml-rails'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.5'
 gem 'pg'

@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resource :home
-  resources :client
+  resources :clients
 
   root 'home#index'
 end

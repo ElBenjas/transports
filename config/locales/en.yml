@@ -30,4 +30,14 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  actions:
+    back: 'Back'
+    view: 'View'
+
+  navbar:
+    clients: 'Clienst'
+    drivers: 'Drivers'
+
+  views:
+    clients:
+      list_of_clients: 'List of clients'
