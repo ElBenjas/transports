@@ -35,7 +35,7 @@ en:
     view: 'View'
 
   navbar:
-    clients: 'Clienst'
+    clients: 'Clients'
     drivers: 'Drivers'
 
   views:
