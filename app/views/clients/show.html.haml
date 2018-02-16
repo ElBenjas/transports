@@ -3,3 +3,5 @@
 
 %p
   = link_to(t('actions.back'), clients_path)
+  = link_to(t('actions.delete'), @client, method: :delete,
+                                          data: { confirm: 'Are you sure?'})

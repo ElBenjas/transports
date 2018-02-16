@@ -6,4 +6,5 @@
     = c.id
     = c.name
     = link_to(t('actions.view'), c)
-    = link_to(t('actions.delete'), c, method: :delete, data: { confirm: 'Are you sure?'})
+    = link_to(t('actions.delete'), c, method: :delete,
+                                      data: { confirm: 'Are you sure?'})
