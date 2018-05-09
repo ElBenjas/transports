@@ -1,0 +1,40 @@
+# This is the configuration used to check the rubocop source code.
+
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'test/**/*'
+    - 'tmp/**/*'
+    - 'db/**/*'
+    - 'node_modules/**/*'
+    - 'config/environments/*'
+    - 'config/routes.rb'
+    - 'config/puma.rb'
+    - 'config/initializers/devise.rb'
+    - 'config/spring.rb'
+    - 'bin/**'
+  TargetRubyVersion: 2.4
+
+Style/Encoding:
+  EnforcedStyle: when_needed
+  Enabled: true
+
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false

@@ -14,6 +14,7 @@ gem 'pry'
 gem 'pry-rails'
 gem 'puma', '~> 3.7'
 gem 'rails', '~> 5.1.4'
+gem 'rubocop', '~> 0.48.1', require: false
 gem 'sass', '~> 3.5.2'
 gem 'sass-rails', '~> 5.0'
 gem 'sqlite3'
